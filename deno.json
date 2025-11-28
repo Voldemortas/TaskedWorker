@@ -1,0 +1,17 @@
+{
+  "name": "@voldemortas/taskedworker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "exports": "./makeTaskedWorkers.ts",
+  "imports": {
+    "@std/expect": "jsr:@std/expect@^1.0.17",
+    "@std/testing": "jsr:@std/testing@^1.0.16"
+  },
+  "fmt": {
+    "useTabs": false,
+    "semiColons": false,
+    "singleQuote": true,
+    "trailingCommas": "onlyMultiLine",
+    "useBraces": "always"
+  }
+}
